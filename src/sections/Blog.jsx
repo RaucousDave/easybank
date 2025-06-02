@@ -2,7 +2,7 @@ export default function Blog() {
   const articles = [
     {
       id: 1,
-      image: "/public/images/image-currency.jpg",
+      image: "/images/image-currency.jpg",
       author: "By Clare Robinson",
       title: "Receive money in any currency with no fees",
       desc: "The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single...",
@@ -17,14 +17,14 @@ export default function Blog() {
     {
       id: 3,
       author: "By Wilson Hutton",
-      image: "/public/images/image-plane.jpg",
+      image: "/images/image-plane.jpg",
       title: "Take your EasyBank card wherever you go",
       desc: "We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you...",
     },
     {
       id: 4,
       author: "By Clare Robinson",
-      image: "/public/images/image-confetti.jpg",
+      image: "/images/image-confetti.jpg",
       title: "Our invite-only Beta accounts are now live!",
       desc: "After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request an invite through the site...",
     },
@@ -45,7 +45,8 @@ export default function Blog() {
                 <img
                   src={article.image}
                   className="rounded-t-lg object-contain h-auto"
-                  alt=""
+                  alt={article.title}
+                  loading="lazy"
                 />
               </div>
               <div className="flex justify-center flex-col px-6 py-4">

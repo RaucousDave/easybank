@@ -2,25 +2,25 @@ export default function About() {
   const services = [
     {
       id: 1,
-      image: "/public/images/icon-online.svg",
+      image: "/images/icon-online.svg",
       title: "Online Banking",
       desc: "Our modern web and mobile applications to keep track of your finances wherever you are in the world.",
     },
     {
       id: 2,
-      image: "/public/images/icon-budgeting.svg",
+      image: "/images/icon-budgeting.svg",
       title: "Simple Budgeting",
       desc: "See exactly where your money goes each month. Receive notifications when you're close to hitting your limits.",
     },
     {
       id: 3,
-      image: "/public/images/icon-onboarding.svg",
+      image: "/images/icon-onboarding.svg",
       title: "Fast Onboarding",
       desc: "We don't do branches. Open your account in minutes online and start taking control of your finances right away.",
     },
     {
       id: 4,
-      image: "/public/images/icon-api.svg",
+      image: "/images/icon-api.svg",
       title: "Open API",
       desc: "Manage your savings and much more from one account. Tracking your money has never been easier.",
     },
@@ -44,7 +44,7 @@ export default function About() {
               className="space-y-4 flex flex-col justify-center items-center"
             >
               <div>
-                <img src={service.image} alt="" />
+                <img src={service.image} alt={service.title} loading="lazy" />
               </div>
               <h3 className="text-xl xl:text-3xl font-light text-darkBlue">
                 {service.title}
