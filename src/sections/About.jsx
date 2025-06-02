@@ -29,7 +29,7 @@ export default function About() {
     <>
       <section className="md:px-6 py-8 bg-lightGrayishBlue p-3 ">
         <div className="md:w-[65%] space-y-4 p-4 mb-[4rem] sm:mb-[2rem] md:mb-[4rem] flex flex-col justify-center items-center">
-          <h1 className="text-3xl xl:text-6xl text-darkBlue">
+          <h1 className="text-3xl text-center xl:text-6xl text-darkBlue">
             Why choose EasyBank?
           </h1>
           <p className="text-grayishBlue xl:text-3xl sm:text-left text-center">
@@ -37,7 +37,7 @@ export default function About() {
             financial hub. Control your finances like never before.
           </p>
         </div>
-        <div className="sm:grid flex flex-col gap-8 justify-center items-center md:grid-cols-4 sm:grid-cols-2 sm:gap-6 md:gap-8 sm:p-4 py-4">
+        <div className="sm:grid flex flex-col gap-8 justify-center items-center md:grid-cols-4 sm:grid-cols-2 sm:gap-6 md:gap-12 sm:p-4 py-4">
           {services.map((service) => (
             <div
               key={service.id}

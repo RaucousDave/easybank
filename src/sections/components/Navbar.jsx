@@ -6,7 +6,7 @@ export default function Navbar() {
         <div>
           <img src="/images/logo.svg" alt="" />
         </div>
-        <div className="md:flex hidden space-x-3  text-grayishBlue list-none">
+        <div className="md:flex hidden space-x-3 text-grayishBlue list-none">
           <li>Home</li>
           <li>About</li>
           <li>Contact</li>
@@ -18,7 +18,7 @@ export default function Navbar() {
             Request Invite
           </button>
         </div>
-        <div>
+        <div className="md:hidden">
           <MobileMenu />
         </div>
       </nav>

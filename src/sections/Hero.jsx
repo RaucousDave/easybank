@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="md:relative md:p-6 pb-[4rem] flex sm:flex-row flex-col-reverse items-center justify-start min-h-screen bg-veryLightGray overflow-hidden">
       {/* TEXT BLOCK */}
       <div className="z-10 px-4 w-full md:w-1/2 text-center md:text-left space-y-4 md:space-y-7 md:px-8 mt-[31.5rem] sm:mt-[41.5rem] md:mt-0 xl:pr-[6rem]">
-        <h1 className="md:text-5xl xl:text-7xl text-[3rem] text-darkBlue leading-snug sm:leading-tight">
+        <h1 className="md:text-5xl text-4xl xl:text-7xl text-darkBlue leading-snug sm:leading-tight">
           Next generation <br /> digital banking
         </h1>
         <p className="text-grayishBlue text-base sm:text-lg xl:text-2xl leading-relaxed sm:leading-wide ">

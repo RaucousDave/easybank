@@ -62,7 +62,7 @@ export default function Footer() {
           <li>Support</li>
           <li>Privacy Policy</li>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-3 flex justify-center flex-col items-center">
           <button className="bg-gradient-to-r from-limeGreen to-brightCyan text-pureWhite px-6 py-2 rounded-full font-semibold transition hover:opacity-50">
             Request Invite
           </button>

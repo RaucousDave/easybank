@@ -10,7 +10,7 @@ const MobileMenu = () => {
       {/* Hamburger Button */}
       <button
         onClick={toggleMenu}
-        className="md:hidden p-2 z-50 fixed top-4 right-4 "
+        className="md:hidden p-2 z-50  top-4 right-4 "
       >
         {!isOpen ? (
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="11">
@@ -33,7 +33,7 @@ const MobileMenu = () => {
 
       {/* Slide-in Menu */}
       <div
-        className={`fixed top-8 right-0 h-64 w-full text-center bg-veryLightGray text-darkBlue z-50 transform transition-transform duration-300 ease-in-out ${
+        className={`absolute top-8 right-0 h-64 w-full text-center bg-veryLightGray text-darkBlue z-50 transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-y-10" : "-translate-y-[200rem]"
         }`}
       >
