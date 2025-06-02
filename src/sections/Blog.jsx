@@ -35,13 +35,13 @@ export default function Blog() {
         <h1 className="text-3xl text-darkBlue mb-[1rem] text-center sm:text-left">
           Latest Articles
         </h1>
-        <div className="py-4 grid md:grid-cols-4 px-6 sm:grid-cols-2 grid-cols-1 gap-12 md:gap-6 sm:gap-4">
+        <div className="py-4 grid md:grid-cols-4 px-6 sm:grid-cols-2 grid-cols-1 gap-12 md:gap-3 sm:gap-4">
           {articles.map((article) => (
             <div
               key={article.id}
-              className=" bg-pureWhite h-[370px] shadow rounded-t-lg pb-4"
+              className=" bg-pureWhite h-[370px] md:h-[420px] shadow rounded-t-lg pb-4"
             >
-              <div className="md:max-h-36 max-h-40 overflow-hidden mb-4">
+              <div className="max-h-40 overflow-hidden mb-4">
                 <img
                   src={article.image}
                   className="rounded-t-lg object-contain h-auto"
